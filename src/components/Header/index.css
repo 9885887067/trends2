@@ -1,0 +1,34 @@
+/* Write your CSS code here */
+.nav-header {
+  display: flex;
+  justify-content: space-around;
+}
+nav-content {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 85%;
+  max-width: 1000px;
+  padding: 20px;
+}
+.nav-menu {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  flex: 1;
+  list-style-type: none;
+}
+.logout-desktop-btn{
+  font-size: 10px;
+  padding:8px 16px;
+  background-color: #0967d2;
+  color:#ffffff;
+  border: none;
+  border-radius: 10px;
+  cursor: pointer;
+
+  outline:none;
+}
+.nav-bar-img{
+  width:24px;
+}

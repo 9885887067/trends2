@@ -1,0 +1,35 @@
+/* Write your CSS code here */
+.login-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  height: 100vh;
+}
+.login-logo {
+  width: 50%;
+}
+
+.form-container {
+  background-color: #ffffff;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0px 4px 16px 0px #bfbfbf;
+  width: 40%;
+}
+.website-logo {
+  height: 40px;
+  width: 40px;
+}
+
+.label {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 25px;
+}
+.input {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 25px;
+  width: 100%;
+}
